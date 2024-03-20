@@ -1,0 +1,50 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statistics {
+  width: 100%;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thead {
+  text-align: left;
+  font-weight: 700;
+  color: #2d2d2d;
+}
+
+.tableHeaderRow {
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.tableHeaderCell,
+.tableBodyCell,
+.tableFooterCell {
+  padding: 4px 8px;
+}
+
+.tableBodyRow {
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.tableRow {
+  height: 30px;
+}
+
+.tableRow:hover {
+  background-color: #f2f2f2;
+}
